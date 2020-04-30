@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beware">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application>
+        <activity android:name=".ObjectDetectorActivity"
+            android:label="Object Detector"/>
+        <activity android:name=".TextActivity"
+            android:label="Text Recognizer"/>
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="label" />
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIESFORTEXT"
+            android:value="ocr" />
+
+        <activity android:name=".MainActivity"
+            android:label="Image Recognizer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

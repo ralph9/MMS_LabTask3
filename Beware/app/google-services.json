@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "862586183543",
+    "firebase_url": "https://saeta-c5e47.firebaseio.com",
+    "project_id": "saeta-c5e47",
+    "storage_bucket": "saeta-c5e47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862586183543:android:64b95ce1ab9376764acb72",
+        "android_client_info": {
+          "package_name": "com.example.beware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862586183543-ol0ravpbl4ubpiqvcq5au6h39it6hf76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7NjRmao7aydFxwtgCfCUPH8C0j6EuVQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862586183543-ol0ravpbl4ubpiqvcq5au6h39it6hf76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
